@@ -1,0 +1,12 @@
+ *{
+    margin: 0;
+    
+ }
+ .casa-img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .card {
+            box-shadow: 0 0 10px #ccc;
+        }
