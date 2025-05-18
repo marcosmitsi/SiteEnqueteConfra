@@ -1,5 +1,7 @@
 <?php
 require_once '../model/DB.php';
+$title = "Escolha sua casa favorita";
+require_once '../view/layout/header.php';
 
 try {
     $conn = DB::getConnection();
@@ -59,6 +61,8 @@ try {
         <?php endforeach; ?>
     </div>
 </div>
-
+<?php 
+require_once '../view/layout/footer.php';
+?>
 </body>
 </html>
